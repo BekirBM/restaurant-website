@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olive &amp; Thyme | Reservation</title>
+</head>
+<body>
+    <header>
+        <h1>Olive &amp; Thyme</h1>
+        <p>Mediterranean Kitchen &amp; Bistro</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Book a Table</h2>
+            <p>Fill in the form below to reserve a table. Not sure what to order? Check our <a href="menu.html">menu</a> first.</p>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Your Details</legend>
+
+                    <label for="name">Full Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="e.g. Ali Yilmaz" required><br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required><br><br>
+
+                    <label for="phone">Phone:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="+90 5xx xxx xx xx"><br><br>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Reservation</legend>
+
+                    <label for="date">Date:</label><br>
+                    <input type="date" id="date" name="date" required><br><br>
+
+                    <label for="time">Time:</label><br>
+                    <input type="time" id="time" name="time" required><br><br>
+
+                    <label for="guests">Number of Guests:</label><br>
+                    <select id="guests" name="guests">
+                        <option value="1">1 person</option>
+                        <option value="2" selected>2 people</option>
+                        <option value="3">3 people</option>
+                        <option value="4">4 people</option>
+                        <option value="5">5 or more</option>
+                    </select><br>
+
+                    <p>Seating preference:</p>
+                    <input type="radio" id="indoor" name="seating" value="indoor" checked>
+                    <label for="indoor">Indoor</label>
+                    <input type="radio" id="terrace" name="seating" value="terrace">
+                    <label for="terrace">Terrace</label><br>
+
+                    <p>Special requests:</p>
+                    <input type="checkbox" id="birthday" name="extras" value="birthday">
+                    <label for="birthday">Birthday celebration</label>
+                    <input type="checkbox" id="highchair" name="extras" value="highchair">
+                    <label for="highchair">Baby high chair</label>
+                    <input type="checkbox" id="vegan" name="extras" value="vegan">
+                    <label for="vegan">Vegan menu</label><br>
+
+                    <label for="notes">Additional notes:</label><br>
+                    <textarea id="notes" name="notes" rows="4" placeholder="Allergies, special occasions..."></textarea><br>
+                </fieldset>
+
+                <button type="submit">Send Reservation</button>
+                <button type="reset">Clear Form</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Find us on <a href="https://www.google.com/maps" target="_blank" rel="noopener">Google Maps</a></p>
+    </footer>
+</body>
+</html>
