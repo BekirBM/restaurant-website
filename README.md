@@ -9,7 +9,9 @@ A simple HTML5 restaurant website made for **UYG211 Internet Programming I – H
 - `reservation.html` – Table reservation form
 
 ## How to run
-Download or clone the repository and open `index.html` in a web browser (e.g. Google Chrome).
+**Live site:** https://bekirbm.github.io/restaurant-website/
+
+Or download the repository and open `index.html` in a web browser (e.g. Google Chrome).
 
 ## Image credits
 Photos are from [Wikimedia Commons](https://commons.wikimedia.org/).
