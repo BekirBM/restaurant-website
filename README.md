@@ -15,3 +15,4 @@ Or download the repository and open `index.html` in a web browser (e.g. Google C
 
 ## Image credits
 Photos are from [Wikimedia Commons](https://commons.wikimedia.org/).
+Made by Bekir for UYG211.
