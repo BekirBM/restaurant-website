@@ -1,5 +1,10 @@
 # Olive & Thyme – Restaurant Website
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+[![GitHub Pages](https://img.shields.io/badge/Live-GitHub%20Pages-222?logo=github)](https://bekirbm.github.io/restaurant-website/)
+![Last commit](https://img.shields.io/github/last-commit/BekirBM/restaurant-website)
+![Repo size](https://img.shields.io/github/repo-size/BekirBM/restaurant-website)
+
 A simple HTML5 restaurant website made for **UYG211 Internet Programming I – Homework 1**.
 
 ## Pages
